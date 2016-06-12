@@ -1,0 +1,1097 @@
+fileFormatVersion: 2
+guid: 68c15046c5cf56b4c990f3e6dc7ea2c6
+timeCreated: 1457281826
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: C_eye_000
+    21300002: C_brow_001
+    21300004: C_foot_000
+    21300006: C_brow_500
+    21300008: C_brow_000
+    21300010: C_body_000
+    21300012: C_mouth_000
+    21300014: C_mouth_500
+    21300016: C_Hair_A_000
+    21300018: C_Hair_B_000
+    21300020: C_Hair_B_001
+    21300022: C_Adorn_A_000
+    21300024: W_000
+    21300026: W_001
+    21300028: E_001
+    21300030: E_100
+    21300032: C_hand_000
+    21300034: C_eyeline_000
+    21300036: C_face_000
+    21300038: C_Adorn_B_000
+    21300040: C_hr_000
+    21300042: W_002
+    21300044: W_100
+    21300046: C_Hair_A_001
+    21300048: C_Hair_A_002
+    21300050: C_Hair_B_002
+    21300052: C_Hair_A_003
+    21300054: C_Adorn_B_001
+    21300056: C_Adorn_B_002
+    21300058: T_001
+    21300060: T_002
+    21300062: T_003
+    21300064: T_004
+    21300066: T_005
+    21300068: T_Cobweb
+    21300070: W_003
+    21300072: W_004
+    21300074: W_005
+    21300076: W_006
+    21300078: E_002
+    21300080: E_101
+    21300082: C_Adorn_B_003
+    21300084: C_Hair_A_004
+    21300086: C_Hair_A_005
+    21300088: C_Adorn_B_004
+    21300090: C_Adorn_B_005
+    21300092: C_Adorn_B_006
+    21300094: C_Adorn_B_007
+    21300096: C_Adorn_B_008
+    21300098: E_102
+    21300100: E_103
+    21300102: E_104_1
+    21300104: E_104_2
+    21300106: T_010
+    21300108: T_011
+    21300110: T_012
+    21300112: T_013
+    21300114: T_014
+    21300116: T_015
+    21300118: T_016
+    21300120: T_017
+    21300122: A_001
+    21300124: A_002
+    21300126: A_003
+    21300128: A_004
+    21300130: A_005
+    21300132: A_006
+    21300134: C_eye_002
+    21300136: C_Adorn_B_009
+    21300138: C_Hair_A_006
+    21300140: C_body_001
+    21300142: C_hand_001
+    21300144: C_001_0
+    21300146: C_mouth_001
+    21300148: C_Adorn_B_010
+    21300150: C_Adorn_B_012
+    21300152: C_Adorn_B_013
+    21300154: C_Adorn_B_014
+    21300156: C_Adorn_B_015
+    21300158: ui_Crystal
+    21300160: E_104_3
+    21300162: A_008
+    21300164: A_009
+    21300166: A_007
+    21300168: A_010
+    21300170: A_011
+    21300172: A_012
+    21300174: A_013
+    21300176: A_014
+    21300178: A_015
+    21300180: A_016
+    21300182: A_017
+    21300184: A_018
+    21300186: A_019
+    21300188: A_020
+    21300190: A_021
+    21300192: A_022
+    21300194: A_023
+    21300196: A_024
+    21300198: A_030
+    21300200: A_031
+    21300202: A_032
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: C_eye_000
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 506
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_brow_001
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 507
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_foot_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_brow_500
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 495
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_brow_000
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 495
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_body_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 459
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_mouth_000
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 477
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_mouth_500
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 459
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_A_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 366
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_B_000
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 385
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_B_001
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 371
+        width: 70
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_A_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: W_000
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 299
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: W_001
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 299
+        width: 67
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_100
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 276
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_hand_000
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 494
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_eyeline_000
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 494
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_face_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 58
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_000
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 335
+        width: 61
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_hr_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: W_002
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 299
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: W_100
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 300
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_A_001
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 366
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_A_002
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 366
+        width: 71
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_B_002
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 377
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_A_003
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 352
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 69
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_002
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 229
+        width: 84
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T_001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T_002
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 164
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T_003
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 148
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T_004
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T_005
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: T_Cobweb
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 109
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: W_003
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 300
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: W_004
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 300
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: W_005
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 299
+        width: 88
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: W_006
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 299
+        width: 88
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_002
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 268
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_101
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 187
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_003
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 230
+        width: 61
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_A_004
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 228
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_A_005
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 228
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_004
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 270
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_005
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 268
+        width: 50
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_006
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 246
+        width: 49
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_007
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 229
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_008
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 268
+        width: 49
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_102
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 184
+        width: 15
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_103
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 187
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_104_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 51
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_104_2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 51
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_001
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 117
+        width: 85
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_002
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 135
+        width: 76
+        height: 92
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_003
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 162
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_004
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 148
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_005
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 145
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_006
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 127
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_eye_002
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 149
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_009
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 120
+        width: 62
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Hair_A_006
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 140
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_body_001
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 119
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_hand_001
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 107
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_001_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 140
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_mouth_001
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 146
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_010
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 108
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_012
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 142
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_013
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 118
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_014
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 49
+        width: 67
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: C_Adorn_B_015
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 81
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_Crystal
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 50
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: E_104_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 51
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_008
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 460
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_009
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 425
+        width: 78
+        height: 87
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_007
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 459
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_010
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 425
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_011
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 428
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_012
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 426
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_013
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 434
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_014
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 424
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_015
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 427
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_016
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 429
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_017
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 457
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_018
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 472
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_019
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 331
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_020
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 355
+        width: 31
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_021
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 260
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_022
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 206
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_023
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 134
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_024
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 188
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_030
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 435
+        width: 86
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 1, y: 0, z: 0, w: 0}
+    - name: A_031
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 358
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: A_032
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 332
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
