@@ -35,7 +35,7 @@ public class Rule
 		{
 			foreach(int Itor in DataPlayer.pthis.MemberParty[iPos].Feature)
 			{
-				DBFFeature Data = GameDBF.pthis.GetFeature(new Argu(Itor)) as DBFFeature;
+				DBFFeature Data = GameDBF.GetFeature(new Argu(Itor)) as DBFFeature;
 				
 				if(Data != null && Data.Mode == (int)emMode)
 					bResult = true;
@@ -63,7 +63,7 @@ public class Rule
 		{
 			foreach(int Itor in DataPlayer.pthis.MemberParty[iPos].Feature)
 			{
-				DBFFeature Data = GameDBF.pthis.GetFeature(new Argu(Itor)) as DBFFeature;
+				DBFFeature Data = GameDBF.GetFeature(new Argu(Itor)) as DBFFeature;
 				
 				if(Data != null && Data.Mode == (int)emMode)
 					iResult += System.Convert.ToInt32(Data.Value);
@@ -91,7 +91,7 @@ public class Rule
 		{
 			foreach(int Itor in DataPlayer.pthis.MemberParty[iPos].Feature)
 			{
-				DBFFeature Data = GameDBF.pthis.GetFeature(new Argu(Itor)) as DBFFeature;
+				DBFFeature Data = GameDBF.GetFeature(new Argu(Itor)) as DBFFeature;
 				
 				if(Data != null && Data.Mode == (int)emMode)
 					fResult += System.Convert.ToSingle(Data.Value);
@@ -217,7 +217,7 @@ public class Rule
 		int iEquipProb = 0;
 		int iEmptyProb = 100;
 		CDice<int> Dice = new CDice<int>();
-		DBFItor Itor = GameDBF.pthis.GetEquip();
+		DBFItor Itor = GameDBF.GetEquip();
 		
 		while(Itor.IsEnd() == false)
 		{
@@ -335,7 +335,7 @@ public class Rule
 		
 		foreach(int ItorFeature in DataPlayer.pthis.MemberParty[iPos].Feature)
 		{
-			DBFFeature Data = GameDBF.pthis.GetFeature(ItorFeature) as DBFFeature;
+			DBFFeature Data = GameDBF.GetFeature(ItorFeature) as DBFFeature;
 			
 			if(Data != null)
 				Group.Add(Data.Group);
@@ -344,7 +344,7 @@ public class Rule
 		// 建立獲得特性骰子
 		int iEmptyProb = 100;
 		CDice<int> Dice = new CDice<int>();
-		DBFItor Itor = GameDBF.pthis.GetFeature();
+		DBFItor Itor = GameDBF.GetFeature();
 		
 		while(Itor.IsEnd() == false)
 		{
@@ -384,7 +384,7 @@ public class Rule
 		
 		foreach(Member ItorMember in DataPlayer.pthis.MemberParty)
 		{
-			DBFEquip Data = GameDBF.pthis.GetEquip(ItorMember.iEquip) as DBFEquip;
+			DBFEquip Data = GameDBF.GetEquip(ItorMember.iEquip) as DBFEquip;
 
 			if(Data == null)
 			{
@@ -407,7 +407,7 @@ public class Rule
 		if(DataPlayer.pthis.MemberParty.Count > iPos)
 		{
 			Member DataMember = DataPlayer.pthis.MemberParty[iPos];
-			DBFEquip DataEquip = GameDBF.pthis.GetEquip(new Argu(DataMember.iEquip)) as DBFEquip;
+			DBFEquip DataEquip = GameDBF.GetEquip(new Argu(DataMember.iEquip)) as DBFEquip;
 
 			if(DataEquip != null && DataEquip.Mode == (int)ENUM_ModeEquip.Damage)
 			{
@@ -443,7 +443,7 @@ public class Rule
 		if(DataPlayer.pthis.MemberParty.Count > iPos)
 		{
 			Member DataMember = DataPlayer.pthis.MemberParty[iPos];
-			DBFEquip DataEquip = GameDBF.pthis.GetEquip(new Argu(DataMember.iEquip)) as DBFEquip;
+			DBFEquip DataEquip = GameDBF.GetEquip(new Argu(DataMember.iEquip)) as DBFEquip;
 			
 			if(DataEquip != null && DataEquip.Mode == (int)ENUM_ModeEquip.Damage)
 			{
@@ -460,7 +460,7 @@ public class Rule
 	public static List<int> MonsterList()
 	{
 		List<int> Result = new List<int>();
-		DBFItor Itor = GameDBF.pthis.GetMonster();
+		DBFItor Itor = GameDBF.GetMonster();
 
 		while(Itor.IsEnd() == false)
 		{
@@ -485,14 +485,14 @@ public class Rule
 
 			iResult += DataMember.iLiveStage + 1;
 
-			DBFEquip DataEquip = GameDBF.pthis.GetEquip(new Argu(DataMember.iEquip)) as DBFEquip;
+			DBFEquip DataEquip = GameDBF.GetEquip(new Argu(DataMember.iEquip)) as DBFEquip;
 
 			if(DataEquip != null)
 				iResult += DataEquip.Threat;
 
 			foreach(int Itor in DataMember.Feature)
 			{
-				DBFFeature DataFeature = GameDBF.pthis.GetFeature(new Argu(Itor)) as DBFFeature;
+				DBFFeature DataFeature = GameDBF.GetFeature(new Argu(Itor)) as DBFFeature;
 
 				if(DataFeature != null)
 					iResult += DataFeature.Threat;
@@ -525,7 +525,7 @@ public class Rule
 	public static List<int> AchievementAdd(ENUM_Achievement emAchievement, int iValue)
 	{
 		List<int> Result = new List<int>();
-		DBFAchievement DBFTemp = (DBFAchievement)GameDBF.pthis.GetAchievement(emAchievement);
+		DBFAchievement DBFTemp = (DBFAchievement)GameDBF.GetAchievement(emAchievement);
 
 		if(DBFTemp == null)
 			return Result;
@@ -559,7 +559,7 @@ public class Rule
 		List<Tuple<ENUM_Achievement, int>> ResultProgress = new List<Tuple<ENUM_Achievement, int>>();
 		List<Tuple<ENUM_Achievement, int>> ResultFinished = new List<Tuple<ENUM_Achievement, int>>();
 		
-		DBFItor Itor = GameDBF.pthis.GetAchievement();
+		DBFItor Itor = GameDBF.GetAchievement();
 		
 		while(Itor.IsEnd() == false)
 		{
@@ -603,7 +603,7 @@ public class Rule
 	// 給予獎勵
 	public static void GetReward(int iReward)
 	{
-		DBFReward DBFTemp = (DBFReward)GameDBF.pthis.GetReward(iReward);
+		DBFReward DBFTemp = (DBFReward)GameDBF.GetReward(iReward);
 
 		if(DBFTemp == null)
 			return;
@@ -661,7 +661,7 @@ public class Rule
 	// 取得升級小刀:加速的攻速值
 	public static float UpgradeWeaponKnife(int iLevel)
 	{
-		DBFEquip DBFTemp = GameDBF.pthis.GetEquip(new Argu((int)ENUM_Weapon.Knife)) as DBFEquip;
+		DBFEquip DBFTemp = GameDBF.GetEquip(new Argu((int)ENUM_Weapon.Knife)) as DBFEquip;
 
 		return DBFTemp != null ? (float)System.Math.Round((double)Mathf.Max(1.0f - iLevel * 0.15f, 0.0f) * DBFTemp.FireRate, 1) : 999.0f;
 	}

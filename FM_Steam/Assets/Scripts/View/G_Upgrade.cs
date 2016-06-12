@@ -35,13 +35,13 @@ public class G_Upgrade : MonoBehaviour
 		int iLevel = Mathf.Max(Mathf.Min(Rule.GetWeaponLevel(pWeapon), GameDefine.iMaxCollectionLv), 0);
 		int iLevelNext = iLevel + 1;
 
-		pLb_Name.text = GameDBF.pthis.GetLanguage(4000 + (int)pWeapon);
+		pLb_Name.text = GameDBF.GetLanguage(4000 + (int)pWeapon);
 		pLb_Lv.text = iLevel.ToString();
-		pLb_Desc.text = GameDBF.pthis.GetLanguage(5000 + (int)pWeapon);
+		pLb_Desc.text = GameDBF.GetLanguage(5000 + (int)pWeapon);
 		pLb_EffectNow.text = "";
 		pLb_EffectNext.text = "";
 
-		string szHelp = GameDBF.pthis.GetLanguage(6000 + (int)pWeapon);
+		string szHelp = GameDBF.GetLanguage(6000 + (int)pWeapon);
 
         ChangeValue(iLevel, iLevelNext);
 

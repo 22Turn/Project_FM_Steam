@@ -16,10 +16,10 @@ public class G_FeatureInfo : MonoBehaviour
         else
             gameObject.SetActive(true);
 
-        DBFFeature pDBFFeature = GameDBF.pthis.GetFeature(DataPlayer.pthis.MemberParty[iID].Feature[iIndex]) as DBFFeature;
+        DBFFeature pDBFFeature = GameDBF.GetFeature(DataPlayer.pthis.MemberParty[iID].Feature[iIndex]) as DBFFeature;
 
         S_Icon.spriteName = string.Format("ui_feature_{0:000}", DataPlayer.pthis.MemberParty[iID].Feature[iIndex]);
-        Lb_Src.text = GameDBF.pthis.GetLanguage(pDBFFeature.StrID) + "\n" + GameDBF.pthis.GetLanguage(pDBFFeature.Description);
+        Lb_Src.text = GameDBF.GetLanguage(pDBFFeature.StrID) + "\n" + GameDBF.GetLanguage(pDBFFeature.Description);
 
     }
 }

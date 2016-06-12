@@ -69,7 +69,7 @@ public class EnemyCreater : MonoBehaviour
 		while (iTempEnegry > 0)
 		{
 			int iEnemy = LibCSNStandard.Tool.RandomPick(pEnemy);
-			DBFMonster DBFData = GameDBF.pthis.GetMonster(iEnemy) as DBFMonster;
+			DBFMonster DBFData = GameDBF.GetMonster(iEnemy) as DBFMonster;
 			
 			if (DBFData == null)
 			{
@@ -173,7 +173,7 @@ public class EnemyCreater : MonoBehaviour
 			yield return new WaitForSeconds(Random.Range(GameDefine.iMinWaitSec, GameDefine.iMaxWaitSec));            
             for (int i = 0; i < ListEnemy.Count; i++)
             {
-                DBFMonster DBFData = GameDBF.pthis.GetMonster(ListEnemy[i]) as DBFMonster;
+                DBFMonster DBFData = GameDBF.GetMonster(ListEnemy[i]) as DBFMonster;
                 // 如果是擋路怪要生在路上.
                 if ((ENUM_ModeMonster)DBFData.Mode == ENUM_ModeMonster.NoMove)
                     CreateByRoad(ListEnemy[i]);

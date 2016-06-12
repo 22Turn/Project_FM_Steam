@@ -22,7 +22,7 @@ public class G_Achievement : MonoBehaviour
     // ------------------------------------------------------------------
 	public void Refresh()
 	{
-		DBFAchievement DBFTemp = (DBFAchievement)GameDBF.pthis.GetAchievement(pAchieve);
+		DBFAchievement DBFTemp = (DBFAchievement)GameDBF.GetAchievement(pAchieve);
 
 		if(DBFTemp == null)
 			return;
@@ -35,19 +35,19 @@ public class G_Achievement : MonoBehaviour
 		bool bComplete = iValueNow >= iValueNeed;
 
 		pS_Check.enabled = bComplete;
-		pLb_Name.text = GameDBF.pthis.GetLanguage(DBFTemp.Name) + " Lv " + iLevel;
+		pLb_Name.text = GameDBF.GetLanguage(DBFTemp.Name) + " Lv " + iLevel;
 		pLb_Progress.text = bComplete ? "---" : iValueNow + " / " + iValueNeed;
-		pLb_Desc.text = GameDBF.pthis.GetLanguage(8000 + (int)pAchieve);
+		pLb_Desc.text = GameDBF.GetLanguage(8000 + (int)pAchieve);
 
-		DBFReward DBFTemp2 = (DBFReward)GameDBF.pthis.GetReward(DBFTemp.GetReward(iLevel));
+		DBFReward DBFTemp2 = (DBFReward)GameDBF.GetReward(DBFTemp.GetReward(iLevel));
 
 		if(DBFTemp2 == null)
 			return;
 
         if (DBFTemp2.Reward == (int)ENUM_Reward.Looks)
-            pLb_Effect.text = GameDBF.pthis.GetLanguage(9000 + DBFTemp2.Note);
+            pLb_Effect.text = GameDBF.GetLanguage(9000 + DBFTemp2.Note);
         else
-			pLb_Effect.text = string.Format(GameDBF.pthis.GetLanguage(9000 + DBFTemp2.Note), DBFTemp2.Value);
+			pLb_Effect.text = string.Format(GameDBF.GetLanguage(9000 + DBFTemp2.Note), DBFTemp2.Value);
 
         RefreshIcon(DBFTemp2);
 	}

@@ -31,7 +31,7 @@ public class AIEnemy : MonoBehaviour
     // ------------------------------------------------------------------
 	void Start () 
     {
-		DBFData = GameDBF.pthis.GetMonster(iMonster) as DBFMonster;
+		DBFData = GameDBF.GetMonster(iMonster) as DBFMonster;
 
         SysMain.pthis.Enemy.Add(gameObject, DBFData.Threat);
 
