@@ -1,0 +1,104 @@
+{"GUID":"1001", "enUS":"Flashlight", "zhTW":"\u624b\u96fb\u7b52"}
+{"GUID":"1002", "enUS":"Knife", "zhTW":"\u5c0f\u5200"}
+{"GUID":"1003", "enUS":"Pistol", "zhTW":"\u624b\u69cd"}
+{"GUID":"1004", "enUS":"Revolver", "zhTW":"\u5de6\u8f2a\u624b\u69cd"}
+{"GUID":"1005", "enUS":"Desert Eagle", "zhTW":"\u6c99\u6f20\u4e4b\u9df9"}
+{"GUID":"1006", "enUS":"Submachine", "zhTW":"\u885d\u92d2\u69cd"}
+{"GUID":"1007", "enUS":"Assault Rifle", "zhTW":"\u7a81\u64ca\u6b65\u69cd"}
+{"GUID":"1008", "enUS":"Light machine gun", "zhTW":"\u8f15\u6a5f\u69cd"}
+{"GUID":"2001", "enUS":"Chef", "zhTW":"\u5eda\u5e2b"}
+{"GUID":"2002", "enUS":"Doctor", "zhTW":"\u91ab\u751f"}
+{"GUID":"2003", "enUS":"Obesity", "zhTW":"\u80a5\u80d6"}
+{"GUID":"2004", "enUS":"Disability", "zhTW":"\u6b98\u75be"}
+{"GUID":"2005", "enUS":"Health", "zhTW":"\u5065\u5eb7"}
+{"GUID":"2006", "enUS":"Strong", "zhTW":"\u5f37\u58ef"}
+{"GUID":"2007", "enUS":"Flu", "zhTW":"\u611f\u5192"}
+{"GUID":"2008", "enUS":"Injured", "zhTW":"\u53d7\u50b7"}
+{"GUID":"2009", "enUS":"Clumsy", "zhTW":"\u7b28\u62d9"}
+{"GUID":"2010", "enUS":"Careless", "zhTW":"\u7c97\u5fc3"}
+{"GUID":"2011", "enUS":"Elite", "zhTW":"\u7cbe\u82f1"}
+{"GUID":"2012", "enUS":"Genius", "zhTW":"\u5929\u624d"}
+{"GUID":"2013", "enUS":"Modified", "zhTW":"\u6539\u88dd"}
+{"GUID":"2014", "enUS":"Corrupted", "zhTW":"\u640d\u58de"}
+{"GUID":"2015", "enUS":"Signaller", "zhTW":"\u901a\u8a0a\u5175"}
+{"GUID":"2016", "enUS":"General", "zhTW":"\u5c07\u8ecd"}
+{"GUID":"2017", "enUS":"Shield", "zhTW":"\u8b77\u76fe"}
+{"GUID":"2018", "enUS":"Dual shield", "zhTW":"\u96d9\u91cd\u8b77\u76fe"}
+{"GUID":"2019", "enUS":"Nightmare", "zhTW":"\u5669\u5922"}
+{"GUID":"2020", "enUS":"Curse", "zhTW":"\u8a5b\u5492"}
+{"GUID":"2021", "enUS":"Low-key", "zhTW":"\u4f4e\u8abf"}
+{"GUID":"2022", "enUS":"High-profile", "zhTW":"\u9192\u76ee"}
+{"GUID":"3001", "enUS":"[ffed00]sta cap[546ef2]+3[-][-]", "zhTW":""}
+{"GUID":"3002", "enUS":"[ffed00]sta cap[546ef2]+6[-][-]", "zhTW":""}
+{"GUID":"3003", "enUS":"[ffed00]sta cap[e92121]-3[-][-]", "zhTW":""}
+{"GUID":"3004", "enUS":"[ffed00]sta cap[e92121]-6[-][-]", "zhTW":""}
+{"GUID":"3005", "enUS":"[ffed00]regain[546ef2]+1[-][-]", "zhTW":""}
+{"GUID":"3006", "enUS":"[ffed00]regain[546ef2]+2[-][-]", "zhTW":""}
+{"GUID":"3007", "enUS":"[ffed00]regain[e92121]-1[-][-]", "zhTW":""}
+{"GUID":"3008", "enUS":"[ffed00]regain[e92121]-2[-][-]", "zhTW":""}
+{"GUID":"3009", "enUS":"[ffed00]crit[e92121]-20%[-][-]", "zhTW":""}
+{"GUID":"3010", "enUS":"[ffed00]crit[e92121]-10%[-][-]", "zhTW":""}
+{"GUID":"3011", "enUS":"[ffed00]crit[546ef2]+10%[-][-]", "zhTW":""}
+{"GUID":"3012", "enUS":"[ffed00]crit[546ef2]+20%[-][-]", "zhTW":""}
+{"GUID":"3013", "enUS":"[ffed00]damage[546ef2]+5[-][-]", "zhTW":""}
+{"GUID":"3014", "enUS":"[ffed00]damage[e92121]-5[-][-]", "zhTW":""}
+{"GUID":"3015", "enUS":"[ffed00]bomb[546ef2]+1[-][-]", "zhTW":""}
+{"GUID":"3016", "enUS":"[ffed00]bomb[546ef2]+2[-][-]", "zhTW":""}
+{"GUID":"3017", "enUS":"[ffed00]shield[546ef2]+2[-][-]", "zhTW":""}
+{"GUID":"3018", "enUS":"[ffed00]shield[546ef2]+4[-][-]", "zhTW":""}
+{"GUID":"3019", "enUS":"[ffed00]monster[e92121]+3%[-][-]", "zhTW":""}
+{"GUID":"3020", "enUS":"[ffed00]monster[e92121]+6%[-][-]", "zhTW":""}
+{"GUID":"3021", "enUS":"[ffed00]More safe[-]", "zhTW":""}
+{"GUID":"3022", "enUS":"[ffed00]More danger[-]", "zhTW":""}
+{"GUID":"4001", "enUS":"Burn", "zhTW":""}
+{"GUID":"4002", "enUS":"Quickly", "zhTW":""}
+{"GUID":"4003", "enUS":"Freeze", "zhTW":""}
+{"GUID":"4004", "enUS":"Chain", "zhTW":""}
+{"GUID":"4005", "enUS":"Headshot", "zhTW":""}
+{"GUID":"4006", "enUS":"Grenade", "zhTW":""}
+{"GUID":"4007", "enUS":"Spiked", "zhTW":""}
+{"GUID":"4008", "enUS":"Plasma", "zhTW":""}
+{"GUID":"5001", "enUS":"Flashligh can burn monster", "zhTW":""}
+{"GUID":"5002", "enUS":"Knife can throw faster", "zhTW":""}
+{"GUID":"5003", "enUS":"Pistol can freeze monster", "zhTW":""}
+{"GUID":"5004", "enUS":"Revolver can attack multiple monster", "zhTW":""}
+{"GUID":"5005", "enUS":"Desert Eagle's deal more critical damage", "zhTW":""}
+{"GUID":"5006", "enUS":"Submachine now shoot grenade", "zhTW":""}
+{"GUID":"5007", "enUS":"Assault rifle can attack monster on the line", "zhTW":""}
+{"GUID":"5008", "enUS":"Light machine gun now use battery to shoot plasma", "zhTW":""}
+{"GUID":"6001", "enUS":"Deal [FFFF00]{0}[-] damage / 2 sec", "zhTW":""}
+{"GUID":"6002", "enUS":"Knife attack every [FFFF00]{0}[-] second", "zhTW":""}
+{"GUID":"6003", "enUS":"Reduction [FFFF00]{0}%[-] move speed on hit", "zhTW":""}
+{"GUID":"6004", "enUS":"Extra attack [FFFF00]{0}[-] target\nreduction 2 damage when hit", "zhTW":""}
+{"GUID":"6005", "enUS":"[FFFF00]{0}%[-] critical damage", "zhTW":""}
+{"GUID":"6006", "enUS":"Deal [FFFF00]{0}[-] area damage", "zhTW":""}
+{"GUID":"6007", "enUS":"Extar attack [FFFF00]{0}[-] target", "zhTW":""}
+{"GUID":"6008", "enUS":"[FFFF00]+{0}[-] bonus damage", "zhTW":""}
+{"GUID":"7001", "enUS":"Night Runner", "zhTW":""}
+{"GUID":"7002", "enUS":"Ambulance", "zhTW":""}
+{"GUID":"7003", "enUS":"You are fire!", "zhTW":""}
+{"GUID":"7004", "enUS":"Great Escape", "zhTW":""}
+{"GUID":"7005", "enUS":"Crystal Collector", "zhTW":""}
+{"GUID":"7006", "enUS":"Rich Man", "zhTW":""}
+{"GUID":"7007", "enUS":"Power Plant", "zhTW":""}
+{"GUID":"7008", "enUS":"Light Infantry", "zhTW":""}
+{"GUID":"7009", "enUS":"Heavy infantry", "zhTW":""}
+{"GUID":"7010", "enUS":"Crazy Bomber", "zhTW":""}
+{"GUID":"7011", "enUS":"Defender", "zhTW":""}
+{"GUID":"8001", "enUS":"Stage clear in single round", "zhTW":""}
+{"GUID":"8002", "enUS":"Save member in single round", "zhTW":""}
+{"GUID":"8003", "enUS":"Fire member in single round", "zhTW":""}
+{"GUID":"8004", "enUS":"Total stage clear", "zhTW":""}
+{"GUID":"8005", "enUS":"Total pickup crystal", "zhTW":""}
+{"GUID":"8006", "enUS":"Total pickup gold", "zhTW":""}
+{"GUID":"8007", "enUS":"Total pickup battery", "zhTW":""}
+{"GUID":"8008", "enUS":"Total pickup light ammo", "zhTW":""}
+{"GUID":"8009", "enUS":"Total pickup heavy ammo", "zhTW":""}
+{"GUID":"8010", "enUS":"Total pickup bomb", "zhTW":""}
+{"GUID":"8011", "enUS":"Total kill monster", "zhTW":""}
+{"GUID":"9001", "enUS":"Get new member look", "zhTW":""}
+{"GUID":"9002", "enUS":"Start gold [FFFF00]+{0}[-]", "zhTW":""}
+{"GUID":"9003", "enUS":"Start battery [FFFF00]+{0}[-]", "zhTW":""}
+{"GUID":"9004", "enUS":"Start light ammo [FFFF00]+{0}[-]", "zhTW":""}
+{"GUID":"9005", "enUS":"Start heavy ammo [FFFF00]+{0}[-]", "zhTW":""}
+{"GUID":"9006", "enUS":"Start bomb [FFFF00]+{0}[-]", "zhTW":""}
