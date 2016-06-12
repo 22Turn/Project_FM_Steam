@@ -4,13 +4,10 @@ using System.Collections;
 
 public class GameDBF : MonoBehaviour
 {
-	private DBFData m_DBF = new DBFData();
-
-	public static GameDBF pthis = null;
+	private static DBFData m_DBF = new DBFData();
 
 	void Awake()
 	{
-		pthis = this;
         Add<DBFEquip>(GameDefine.szDBFEquip);
         Add<DBFFeature>(GameDefine.szDBFFeature);
         Add<DBFLanguage>(GameDefine.szDBFLanguage);
@@ -19,27 +16,27 @@ public class GameDBF : MonoBehaviour
 		Add<DBFReward>(GameDefine.szDBFReward);
 	}
 
-    public void Add<T>(string szDBFName) where T : DBF
+    public static void Add<T>(string szDBFName) where T : DBF
 	{
 		Debug.Log("load dbf " + szDBFName + " " + (m_DBF.Add<T>(szDBFName, "DBF/" + szDBFName) ? "success" : "failed"));
 	}
-	public DBF GetEquip(Argu GUID)
+    public static DBF GetEquip(Argu GUID)
 	{
 		return m_DBF.Get(GameDefine.szDBFEquip, GUID);
 	}
-	public DBFItor GetEquip()
+    public static DBFItor GetEquip()
 	{
 		return m_DBF.Get(GameDefine.szDBFEquip);
 	}
-	public DBF GetFeature(Argu GUID)
+    public static DBF GetFeature(Argu GUID)
 	{
 		return m_DBF.Get(GameDefine.szDBFFeature, GUID);
 	}
-	public DBFItor GetFeature()
+    public static DBFItor GetFeature()
 	{
 		return m_DBF.Get(GameDefine.szDBFFeature);
 	}
-	public string GetLanguage(Argu GUID)
+	public static string GetLanguage(Argu GUID)
 	{
 		DBFLanguage Data = m_DBF.Get(GameDefine.szDBFLanguage, GUID) as DBFLanguage;
 
@@ -53,35 +50,35 @@ public class GameDBF : MonoBehaviour
 		default: return "";
 		}//switch
 	}
-	public DBFItor GetLanguage()
+    public static DBFItor GetLanguage()
 	{
 		return m_DBF.Get(GameDefine.szDBFLanguage);
 	}
-	public DBF GetMonster(Argu GUID)
+    public static DBF GetMonster(Argu GUID)
 	{
 		return m_DBF.Get(GameDefine.szDBFMonster, GUID);
 	}
-	public DBFItor GetMonster()
+    public static DBFItor GetMonster()
 	{
 		return m_DBF.Get(GameDefine.szDBFMonster);
 	}
-	public DBF GetAchievement(Argu GUID)
+    public static DBF GetAchievement(Argu GUID)
 	{
 		return m_DBF.Get(GameDefine.szDBFAchievement, GUID);
 	}
-	public DBF GetAchievement(ENUM_Achievement emAchievement)
+    public static DBF GetAchievement(ENUM_Achievement emAchievement)
 	{
 		return m_DBF.Get(GameDefine.szDBFAchievement, (int)emAchievement);
 	}
-	public DBFItor GetAchievement()
+    public static DBFItor GetAchievement()
 	{
 		return m_DBF.Get(GameDefine.szDBFAchievement);
 	}
-	public DBF GetReward(Argu GUID)
+    public static DBF GetReward(Argu GUID)
 	{
 		return m_DBF.Get(GameDefine.szDBFReward, GUID);
 	}
-	public DBFItor GetReward()
+    public static DBFItor GetReward()
 	{
 		return m_DBF.Get(GameDefine.szDBFReward);
 	}

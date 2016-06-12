@@ -9,9 +9,9 @@ public class Lb_Feature : MonoBehaviour
     public void SetFeature(int iFeature)
     {
         // 顯示取得的特性.
-        DBFFeature pDBFFeature = GameDBF.pthis.GetFeature(iFeature) as DBFFeature;
+        DBFFeature pDBFFeature = GameDBF.GetFeature(iFeature) as DBFFeature;
 
-		pLb.text = GameDBF.pthis.GetLanguage(pDBFFeature.StrID);
+		pLb.text = GameDBF.GetLanguage(pDBFFeature.StrID);
         pSBg.width = pLb.width + 12;
         pSBg.height = pLb.height + 5;        
     }

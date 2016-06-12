@@ -26,7 +26,7 @@ public class G_Info : MonoBehaviour
             foreach (SpriteRenderer pRender in p2DS)
                 ToolKit.ChangeTo2DSprite(pRender);
 
-            DBFEquip pDBFEquip = GameDBF.pthis.GetEquip(DataPlayer.pthis.MemberParty[iID].iEquip) as DBFEquip;
+            DBFEquip pDBFEquip = GameDBF.GetEquip(DataPlayer.pthis.MemberParty[iID].iEquip) as DBFEquip;
 			ENUM_Resource emResource = (ENUM_Resource)pDBFEquip.Resource;
 
 			if(System.Convert.ToInt32(pDBFEquip.GUID) == (int)ENUM_Weapon.LMG && Rule.GetWeaponLevel(ENUM_Weapon.LMG) > 0)
@@ -54,7 +54,7 @@ public class G_Info : MonoBehaviour
         }
         else
         {
-            DBFEquip pDBFEquip = GameDBF.pthis.GetEquip(DataPlayer.pthis.MemberParty[iID].iEquip) as DBFEquip;
+            DBFEquip pDBFEquip = GameDBF.GetEquip(DataPlayer.pthis.MemberParty[iID].iEquip) as DBFEquip;
 
 			// 攻擊力
 			{

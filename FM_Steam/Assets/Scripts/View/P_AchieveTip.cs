@@ -14,10 +14,10 @@ public class P_AchieveTip : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        DBFAchievement DBFTemp = (DBFAchievement)GameDBF.pthis.GetAchievement(pAchieve);
+        DBFAchievement DBFTemp = (DBFAchievement)GameDBF.GetAchievement(pAchieve);
 
-        pLb_Name.text = GameDBF.pthis.GetLanguage(DBFTemp.Name);
-        pLb_Info.text = GameDBF.pthis.GetLanguage(8000 + (int)pAchieve);
+        pLb_Name.text = GameDBF.GetLanguage(DBFTemp.Name);
+        pLb_Info.text = GameDBF.GetLanguage(8000 + (int)pAchieve);
 	}
 
     // ------------------------------------------------------------------

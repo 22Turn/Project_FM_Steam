@@ -38,7 +38,7 @@ public class G_RandRole : MonoBehaviour
 		
 		foreach(Member ItorMember in DataPlayer.pthis.MemberParty)
 		{
-			DBFEquip Data = GameDBF.pthis.GetEquip(ItorMember.iEquip) as DBFEquip;
+			DBFEquip Data = GameDBF.GetEquip(ItorMember.iEquip) as DBFEquip;
 			
 			if(Data != null && Data.Mode == (int)ENUM_ModeEquip.Light)
 				bLight = true;
